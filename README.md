@@ -83,7 +83,7 @@ F. Yao, W. Zhao, M. Forshaw, Y. Song, "A holistic power optimization approach fo
 
 ## License
 
-Code in this repository is released under the MIT License (see `LICENSE`). The redistributed raw data file (`Microgrid_data.csv`) originates from the FLYao District Microgrid Dataset repository; please consult that repository's own license terms before further redistribution.
+Code in this repository is released under CC BY 4.0 (see `LICENSE`). The redistributed raw data file (`Microgrid_data.csv`) originates from the FLYao District Microgrid Dataset repository; please consult that repository's own license terms before further redistribution.
 
 
 ## Contact
