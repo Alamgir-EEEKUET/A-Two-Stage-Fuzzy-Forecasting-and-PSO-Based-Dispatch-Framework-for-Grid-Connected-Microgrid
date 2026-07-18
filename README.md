@@ -35,7 +35,7 @@ Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, K
    - The 20-day multi-day evaluation (`MULTIDAY_N_DAYS = 20`, `MULTIDAY_N_RUNS = 10`), reproducing Tables 5–8 and Figures 10–11.
 4. To capture the full console log as in `results_log.txt`, wrap the run with:
    ```matlab
-   diary results_log_rerun.txt
+   diary results.log
    fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_V1
    diary off
    ```
