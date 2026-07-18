@@ -2,22 +2,8 @@
 
 Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, Khulna University of Engineering & Technology). This repository reproduces every table, figure, and statistical test reported in the paper from the released data and fixed random seeds.
 
-DOI Badge
-This badge points to the latest released version of your repository. If you want a DOI badge for a specific release, please follow the DOI link for one of the specific releases and grab badge from the archived record.
-DOI
-10.5281/zenodo.21427698
-Markdown
-[![DOI](https://zenodo.org/badge/1304791112.svg)](https://doi.org/10.5281/zenodo.21427697)
-reStructuredText
-.. image:: https://zenodo.org/badge/1304791112.svg
-  :target: https://doi.org/10.5281/zenodo.21427697
-HTML
-<a href="https://doi.org/10.5281/zenodo.21427697"><img src="https://zenodo.org/badge/1304791112.svg" alt="DOI"></a>
-Image URL
-https://zenodo.org/badge/1304791112.svg
-Target URL
-https://doi.org/10.5281/zenodo.21427697
 
+[![DOI](https://zenodo.org/badge/1304791112.svg)](https://doi.org/10.5281/zenodo.21427697)
 
 ## Repository contents
 
