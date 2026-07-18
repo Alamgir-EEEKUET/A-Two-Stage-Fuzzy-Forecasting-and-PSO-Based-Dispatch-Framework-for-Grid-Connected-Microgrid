@@ -24,7 +24,7 @@ Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, K
 1. Place `Microgrid_with_EV.csv` in the same folder as the `.m` script (or update `CSV_FILE` at the top of the script).
 2. Open MATLAB in that folder and run:
    ```matlab
-   fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_no_ARIMA_v3
+   fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_V1
    ```
 3. The script runs, in order:
    - Data loading, feature construction, and the FCM-TSK / FFNN / LSTM forecaster training (Stage A);
@@ -33,7 +33,7 @@ Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, K
 4. To capture the full console log as in `results_log.txt`, wrap the run with:
    ```matlab
    diary results_log_rerun.txt
-   fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_no_ARIMA_v3
+   fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_V1
    diary off
    ```
 
