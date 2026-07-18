@@ -12,7 +12,7 @@ Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, K
 | `fcm_tsk_pso_de_EV_V2G_multiday_FFNN_LSTM_V1.m` | Main MATLAB pipeline: FCM-TSK / FFNN / LSTM forecasting (Stage A), PSO/DE dispatch optimisation (Stage B), single-day and 20-day multi-day evaluation, all statistical tests (Diebold–Mariano, Wilcoxon, one-sample *t*-test), and figure generation. |
 | `Microgrid_data.csv` | Raw, unmodified PV/load/price data as downloaded from the [FLYao District Microgrid Dataset](https://github.com/FLYao123/District-microgrid-dataset) (Yao et al., 2025), included for independent provenance verification. Not read directly by the pipeline. |
 | `Microgrid_with_EV.csv` | The processed input file actually consumed by the pipeline: PV, load, and price (converted W→kW), the two auxiliary channels released with the source dataset (`Unmeet_kWh_`, `CI_gco2_kWh_`), and four auxiliary EV-related feature columns (see **Data notes** below). |
-| `results_log.txt` | Full console output (MATLAB `diary`) from the run that produced every number reported in the paper. |
+| `results.log` | Full console output (MATLAB `diary`) from the run that produced every number reported in the paper. |
 | `multiday_results_20days_10runs.csv` | Per-day forecast MAE and dispatch cost/savings table for all 20 evaluated test days (10 matched-seed runs per day), auto-saved by the pipeline. |
 
 ## Requirements
@@ -83,8 +83,7 @@ F. Yao, W. Zhao, M. Forshaw, Y. Song, "A holistic power optimization approach fo
 
 ## License
 
-Code in this repository is released under the MIT License (see `LICENSE`). The redistributed raw data file (`Microgrid_data.csv`) originates from the FLYao District Microgrid Dataset repository; please consult that
-repository's own license terms before further redistribution.
+Code in this repository is released under the MIT License (see `LICENSE`). The redistributed raw data file (`Microgrid_data.csv`) originates from the FLYao District Microgrid Dataset repository; please consult that repository's own license terms before further redistribution.
 
 
 ## Contact
