@@ -14,7 +14,7 @@ Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, K
 
 ## Requirements
 
-- MATLAB R2023a or later (uses `arima`-free, native functions only)
+- MATLAB R2021a or later
 - **Deep Learning Toolbox** (required for the LSTM benchmark, `lstmLayer`)
 - Statistics and Machine Learning Toolbox (`ranksum`, `signrank`, `ttest`, `fitcsvm`-family utilities if used)
 - No GPU required; the LSTM benchmark will use a GPU automatically if MATLAB detects one (`'ExecutionEnvironment','auto'`). See **Reproducibility note** below.
