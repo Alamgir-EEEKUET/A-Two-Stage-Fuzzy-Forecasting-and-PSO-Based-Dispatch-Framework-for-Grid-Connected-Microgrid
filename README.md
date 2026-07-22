@@ -2,7 +2,8 @@
 
 Code and data accompanying the manuscript (Md. Alamgir Hossain, Md. Shahjahan, Khulna University of Engineering & Technology). This repository reproduces every table, figure, and statistical test reported in the paper from the released data and fixed random seeds.
 
-
+DOI
+10.5281/zenodo.21427698
 [![DOI](https://zenodo.org/badge/1304791112.svg)](https://doi.org/10.5281/zenodo.21427697)
 
 ## Repository contents
